@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    background-color: rgb(51, 51, 51);
+    color: rgb(212, 195, 195);
+    text-shadow: 1px 1px 10px darkred;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    font-size: clamp(1rem, 10vw, 3rem);
+}
+
+.arena {
+    display: flex;
+    justify-content: center;
+    gap: clamp(0.5rem, 5vw, 2rem);
+    border-radius: 4px;
+    box-shadow: 0 0 20px black;
+    background-color: darkred;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.character-card {
+    border: 3px dashed darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 0 10px black;
+}
+
+.versus-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: clamp(.7rem, 3vw, 2rem);
+    max-height: 2rem;
+    padding: .5vw;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+}
+
+.player-char-pic {
+    font-size: clamp(4rem, 25vh, 8rem);
+    min-height: 150px;
+}
+
+.player-char-name {
+    padding: 0.3rem;
+}
+
+.computer-char-pic {
+    font-size: clamp(4rem, 25vh, 8rem);
+    min-height: 150px;
+}
+
+.computer-char-name {
+    padding: 0.3rem;
+}
+
+.player-select-area {
+
+}
